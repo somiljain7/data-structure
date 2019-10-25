@@ -1,10 +1,3 @@
-//============================================================================
-// Name        : library.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
 
 #include <iostream>
 using namespace std;
@@ -127,10 +120,7 @@ public:
 
 	}
 	
-	void sort()
-	{
-		
-	}
+	
 };
 int main() {
 	int p;
@@ -140,9 +130,8 @@ int main() {
 	do {
 		cout << "enter your choice ";
 		cout << "enter 1 for display" << endl;
-		cout << "enter 2 for sort according to isbn number" << endl;
-		cout << "enter 3 for search the book" << endl;
-		cout << "enter 4 for insert" << endl;
+		cout << "enter 2 for search the book" << endl;
+		cout << "enter 3 for insert" << endl;
 
 		cout << "enter 0 for exit" << endl;
 		cin >> choice;
@@ -152,10 +141,10 @@ int main() {
 			break;
 
 
-		case 3:
+		case 2:
 			l.search();
 			break;
-		case 4:
+		case 3:
 			cout << "enter position" << endl;
 			cin >> p;
 			l.insert(p);
