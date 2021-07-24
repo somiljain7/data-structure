@@ -1,7 +1,20 @@
-# DATA-STRUCTURES
+# ` DATA-STRUCTURES `
 
-This repo contains some data strucutres implementation and algorithm implementations too.
+**This repo contains some data strucutres algorithm implementations .**
 
-# languages - cpp , c ,python and Java
+# `Setup: `
+```
+$ git clone https://github.com/somiljain7/data-structure.git
 
-# feel free to contribute :)
+```
+
+# `languages - `
+- cpp 
+- c 
+- python 
+- Java
+
+# `feel free to contribute :)`
+
+
+
